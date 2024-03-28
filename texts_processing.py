@@ -82,7 +82,7 @@ if __name__ == "__main__":
     print(L)
 
     tknz = TextsTokenizer()
-    tknz.add_stopwords(["жопа", "член"])
+    tknz.add_stopwords(["машину", "самолеты"])
     print("stopwords:", tknz.stop_words_patterns)
     tknz.add_synonyms(L)
     print(tknz.synonyms)
